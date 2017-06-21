@@ -8,7 +8,7 @@ const minify = require('./lib/minify');
 const controllers = require('./controllers');
 
 const app = express();
-const port = process.env.port || 443;
+const port = process.env.port || 80;
 
 // Trust proxy headers if we're deployed on now
 if (process.env.NOW) {
